@@ -4,10 +4,12 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { BrainstormingMapComponent } from './brainstorming-map/brainstorming-map.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BrainstormingMapComponent
   ],
   imports: [
     BrowserModule,

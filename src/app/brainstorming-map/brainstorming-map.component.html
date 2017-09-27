@@ -1,0 +1,13 @@
+<div class="brainstorming-map" #brainstormingMap>
+  <ul>
+    <li>1. chose node (click on it)</li>
+    <li>2. write something in input field</li>
+    <li>3. click "Add node"</li>
+    <li>* for increasing: choose shape and drag small circle near it</li>
+  </ul>
+  <input type="text" id="node-name" [(ngModel)]="keyword"/>
+  <button type="button" (click)="addNode()" >Add node</button>
+  <br />
+  <div [id]="mapId"></div>
+</div>
+
